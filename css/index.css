@@ -1,0 +1,312 @@
+/* 导入 字体文件 */
+@font-face {
+  font-family: 'wjsfont';
+  src: url('../font/MiFie-Web-Font.eot');
+  src: url('../font/MiFie-Web-Font.eot?#iefix') format('embedded-opentype'), url('../font/MiFie-Web-Font.woff') format('woff'), url('font/MiFie-Web-Font.ttf') format('truetype'), url('../font/MiFie-Web-Font.svg') format('svg');
+}
+/* 定义 使用的class */
+.wjsfont {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'wjsfont';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+.wjsfont-logo::before {
+  content: '\e920';
+}
+.wjsfont-name::before {
+  content: '\e921';
+}
+.wjsfont-e903::before {
+  content: '\e903';
+}
+.wjsfont-e901::before {
+  content: '\e901';
+}
+.wjsfont-e904::before {
+  content: '\e904';
+}
+.wjsfont-e905::before {
+  content: '\e905';
+}
+.wjsfont-e902::before {
+  content: '\e902';
+}
+/* 添加 产品列表的 文字样式 */
+.wjsfont-e915::before {
+  content: '\e915';
+}
+.wjsfont-new01::before {
+  content: "\e90e";
+}
+.wjsfont-new02::before {
+  content: "\e90f";
+}
+.wjsfont-new03::before {
+  content: "\e910";
+}
+.wjsfont-new04::before {
+  content: "\e911";
+}
+/* 网页 最下方的 合作单位 */
+.wjsfont-partner01::before {
+  content: "\e946";
+}
+.wjsfont-partner02::before {
+  content: "\e92f";
+}
+.wjsfont-partner03::before {
+  content: "\e92e";
+}
+.wjsfont-partner04::before {
+  content: "\e92a";
+}
+.wjsfont-partner05::before {
+  content: "\e929";
+}
+.wjsfont-partner06::before {
+  content: "\e931";
+}
+.wjsfont-partner07::before {
+  content: "\e92c";
+}
+.wjsfont-partner08::before {
+  content: "\e92b";
+}
+.wjsfont-partner09::before {
+  content: "\e92d";
+}
+header .container-fuid .row > div {
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #ccc;
+  border-right: none;
+  text-align: center;
+}
+header .container-fuid .row > div a {
+  color: #888;
+  text-decoration: none;
+  position: relative;
+}
+header .container-fuid .row > div a img {
+  position: absolute;
+  z-index: 2;
+  left: 0px;
+  top: 18px;
+  display: none;
+}
+header .container-fuid .row > div a:hover img {
+  display: block;
+}
+.wjx_nav .navbar {
+  margin-bottom: 0px;
+}
+.wjx_nav .container a {
+  height: 80px;
+  line-height: 80px;
+  padding-top: 0px;
+}
+.wjx_nav .container .nav li a:hover,
+.wjx_nav .container .nav li a:focus {
+  border-bottom: 2px solid red;
+}
+.wjx_nav .container .wjsfont {
+  font-size: 80px;
+}
+.wjx_nav .container .wjsfont-logo {
+  color: red;
+}
+.wjx_nav .container .wjsfont-name {
+  color: black;
+}
+.wjx_carousel img {
+  width: 100%;
+}
+.exchange {
+  margin-bottom: 40px;
+}
+.exchange .row a {
+  color: #808080;
+  padding-top: 30px;
+  display: block;
+  padding-left: 50px;
+  position: relative;
+}
+.exchange .row a:hover {
+  color: red;
+}
+.exchange .row a span {
+  font-size: 30px;
+  position: absolute;
+  left: 0px;
+  top: 50%;
+}
+.wjx_booking {
+  height: 80px;
+  padding-top: 35px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+.wjx_booking a {
+  color: black;
+}
+.wjx_booking .pull-left a {
+  color: red;
+  border-bottom: 1px dashed red;
+}
+.wjx_buy .tab-content .row {
+  margin: 0;
+}
+.wjx_buy .tab-content .row > div {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.wjx_buy .tab-content .row > div .buy_content {
+  position: relative;
+  border: 1px solid #ccc;
+  background: pink;
+  margin-top: 20px;
+  box-shadow: 1px 1px 3px #ccc;
+  box-shadow: -1px -1px 3px #ccc;
+  padding-right: 80px;
+}
+.wjx_buy .tab-content .row > div .buy_content a {
+  color: #808080;
+  display: block;
+}
+.wjx_buy .tab-content .row > div .buy_content a .buy_left {
+  padding: 5px 10px;
+  width: 100%;
+}
+.wjx_buy .tab-content .row > div .buy_content a .buy_left h3 {
+  text-align: center;
+}
+.wjx_buy .tab-content .row > div .buy_content a .buy_left .buy_content_right {
+  width: 50%;
+}
+.wjx_buy .tab-content .row > div .buy_content a .buy_left .buy_content_right p {
+  text-align: right;
+}
+.wjx_buy .tab-content .row > div .buy_content a .buy_right {
+  width: 80px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  border-left: 1px dashed #000;
+}
+.wjx_buy .tab-content .row > div .buy_content a .buy_right:before {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: white;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 1px 3px #ccc;
+}
+.wjx_buy .tab-content .row > div .buy_content a .buy_right:after {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: white;
+  transform: translate(-50%, 50%);
+  box-shadow: 0px -1px 3px #ccc;
+}
+.wjx_buy .tab-content .row > div .buy_content a .buy_right > div {
+  padding-top: 50px;
+}
+.wjx_buy .tab-content .row > div .buy_content a .buy_right > div p {
+  text-align: center;
+}
+.wjx_buy .tab-content .row > div .buy_red {
+  background: red;
+}
+.wjx_buy .tab-content .row > div .buy_red a {
+  color: white;
+}
+.wjx_buy .tab-content .row > div .buy_red a .buy_left {
+  position: relative;
+}
+.wjx_buy .tab-content .row > div .buy_red a .buy_left span {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 40px;
+}
+.wjx_buy .tab-content .row > div .buy_three {
+  font-size: 16px;
+}
+.wjx_buy .tab-content .row > div .buy_three span:first-of-type {
+  color: blue;
+  border: 1px solid blue;
+}
+.wjx_buy .tab-content .row > div .buy_three span:last-of-type {
+  color: red;
+  border: 1px solid red;
+}
+.wjx_buy .tab-content .row > div .buy_three span:hover {
+  border: none;
+}
+.wjx_news .container .row .wjx_news_nav {
+  position: relative;
+}
+.wjx_news .container .row .wjx_news_nav .wjx_line {
+  height: 350px;
+  border-left: 1px dashed #000;
+  position: absolute;
+  left: 35px;
+  top: 0px;
+}
+.wjx_news .container .row h3 {
+  border-bottom: 1px solid #000;
+  position: relative;
+}
+.wjx_news .container .row h3:after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  border: 1px solid black;
+  right: 0;
+  bottom: 0;
+  background: white;
+  transform: translateY(50%);
+}
+.wjx_news .container .row .nav-tabs {
+  border: none;
+}
+.wjx_news .container .row .nav-tabs li {
+  padding-bottom: 40px;
+}
+.wjx_news .container .row .nav-tabs li a {
+  display: inline-block;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  background: #ccc;
+}
+.wjx_news .container .row .nav-tabs li a:hover,
+.wjx_news .container .row .nav-tabs li a:focus {
+  background: red;
+}
+.wjx_news .container .row .nav-tabs li a span {
+  font-size: 40px;
+}
+footer {
+  text-align: center;
+  height: 100px;
+}

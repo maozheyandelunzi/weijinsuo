@@ -1,0 +1,294 @@
+@import "wjsfont.less";
+.wjx_view{}
+
+//头部
+header{
+   .container-fuid{
+       .row{
+           >div{
+               height:50px;
+               line-height: 50px;
+               border:1px solid #ccc;
+               border-right:none;
+               text-align: center;
+               a{
+                   color: #888;
+                   text-decoration: none;
+                   position: relative;
+                   img{
+                       position: absolute;
+                       z-index: 2;
+                       left: 0px;
+                       top:18px;
+                       display: none;                 }
+                   &:hover img{
+                       display: block;
+                   }
+               }
+           }
+       }
+   }
+}
+
+//导航区
+.wjx_nav{
+    .navbar{
+            margin-bottom:0px;
+        }
+    .container{
+        a{
+            height: 80px;
+            line-height: 80px;
+            padding-top: 0px;
+        }
+        .nav{
+            li{
+                a{
+                    &:hover,&:focus{
+                        border-bottom: 2px solid red;
+                    }
+                }
+            }
+        } 
+        .wjsfont{
+            font-size:80px;
+        }
+        .wjsfont-logo{
+            color: red;
+        }
+        .wjsfont-name{
+            color: black; 
+        }
+    }
+    
+}
+
+//轮播区
+.wjx_carousel{
+
+    img{
+        width: 100%;
+    }
+}
+
+//交易保障
+.exchange{
+    .row{
+        a{ 
+            color: #808080;
+            &:hover{
+                color: red;
+            }
+            padding-top:30px; 
+            display: block;
+            padding-left: 50px;
+            position: relative;
+            span{
+                font-size: 30px;
+                position: absolute;
+                left: 0px;
+                top: 50%;
+            }
+        }
+    }
+    margin-bottom: 40px;
+}
+
+//排队预约
+.wjx_booking{
+    height: 80px;
+    // background: pink;
+    padding-top: 35px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    a{
+        color: black;
+    }
+    .pull-left a{
+       color: red;
+       border-bottom: 1px dashed red;
+    }
+}
+
+//特别推荐
+.wjx_buy{
+    .tab-content{
+        .row{
+            margin: 0;
+            >div{
+                padding-left: 20px;
+                padding-right: 20px;
+                .buy_content{
+                    position: relative;
+                    border: 1px solid #ccc;
+                    background: pink;
+                    margin-top: 20px;
+                    box-shadow: 1px 1px 3px #ccc;
+                    box-shadow: -1px -1px 3px #ccc; 
+                    padding-right: 80px; 
+                   a{ 
+                     color: #808080;  
+                     display: block;
+                 .buy_left{
+                    padding:5px 10px; 
+                    width:100%;
+                    // background: red;
+
+                    h3{
+                        text-align: center;
+                    }
+                    .buy_content_right{
+                        width: 50%;
+                        p{
+                            text-align: right;
+                        }
+                    }
+                }
+                .buy_right{
+                    width: 80px;
+                    // background: yellow;
+                    height: 100%;
+                    position: absolute;
+                    right: 0;
+                    top:0px;
+                    border-left: 1px dashed #000;
+                    &:before{
+                        display: block;
+                        content: "";
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 25px;
+                        height: 25px;
+                        border-radius: 50%;
+                        background: white;
+                        transform: translate(-50%,-50%);
+                        box-shadow: 0px 1px 3px #ccc;
+                    }
+                    &:after{
+                        display: block;
+                        content: "";
+                        position: absolute;
+                        left: 0px;
+                        bottom: 0px;
+                        width: 25px;
+                        height: 25px;
+                        border-radius: 50%;
+                        background: white;
+                        transform: translate(-50%,50%);
+                        box-shadow: 0px -1px 3px #ccc;
+                    }
+                    >div{
+                        padding-top: 50px;
+                        p{
+                            text-align: center;
+                        }
+                    }
+                    
+                }
+                
+
+                }
+                }
+                
+                .buy_red{
+                    background: red;
+                    a{
+                        color: white;
+                        .buy_left{
+                            position: relative;
+                            span{
+                                position: absolute;
+                                top:0px;
+                                left: 0px;
+                                font-size: 40px;
+                            }
+                        }
+                    }
+                }
+                .buy_three{
+                    font-size: 16px;
+                    span:first-of-type{
+                       color: blue;
+                       border: 1px solid blue;
+                    }
+                    span:last-of-type{
+                        color: red;
+                        border: 1px solid red;
+                    }
+                    span:hover{
+                        border: none;
+                    }
+                }
+        }
+   
+      }
+    }
+}
+
+//新闻
+.wjx_news{
+    .container{
+        .row{
+          
+            .wjx_news_nav{
+                position: relative;
+               .wjx_line{
+                  height: 350px;
+                  border-left: 1px dashed #000;
+                  position: absolute;
+                  left: 35px;
+                  top:0px;
+            }
+            }
+            
+           h3{
+            border-bottom: 1px solid #000;
+            position: relative;
+            &:after{
+                content: "";
+                display: block;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                position: absolute;
+                border: 1px solid black;
+                right: 0;
+                bottom: 0;
+                background: white;
+                transform: translateY(50%);
+            }
+          }
+          .nav-tabs{
+              border: none;
+              li{
+            //    &:first-of-type a{
+            //        margin-top: 0;
+            //    }   
+                     padding-bottom: 40px;
+                  a{ 
+                      display: inline-block;
+                      color: white;
+                      border: none;
+                      border-radius: 50%;
+                      background: #ccc;
+                    //   margin-top: 40px; 
+                      &:hover,&:focus{
+                          background: red;
+                      }
+                      span{
+                            font-size: 40px;                     
+                      }
+                  }
+              }
+          }
+
+        }
+              
+    }
+}
+//底部
+footer{
+    text-align: center;
+    height: 100px;
+}
